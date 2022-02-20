@@ -130,9 +130,9 @@ public:
 	}
     void  SetInitialWorldSettings()
     {
-        removeAura = sConfigMgr->GetBoolDefault("Boss.Announcer.RemoveAuraUponKill", false);
-        BossAnnouncerEnable = sConfigMgr->GetBoolDefault("Boss.Announcer.Enable", true);
-        BossAnnounceToPlayerOnLogin = sConfigMgr->GetBoolDefault("Boss.Announcer.Announce", true);
+        removeAura = sConfigMgr->GetOption<bool>("Boss.Announcer.RemoveAuraUponKill", false);
+        BossAnnouncerEnable = sConfigMgr->GetOption<bool>("Boss.Announcer.Enable", true);
+        BossAnnounceToPlayerOnLogin = sConfigMgr->GetOption<bool>("Boss.Announcer.Announce", true);
     }
 };
 
