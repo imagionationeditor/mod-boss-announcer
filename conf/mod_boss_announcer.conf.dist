@@ -10,8 +10,69 @@ Boss.Announcer.Enable = 1
 
 # Announce the module when the player logs in?
 
-Boss.Announcer.Announce = 1
+Boss.Announcer.Announce = 0
 
 # Remove Aura such as bloodlust debuff upon boss kill?
 
 Boss.Announcer.RemoveAuraUponKill = 0
+
+# Enable fast kill record system? (1: true | 0: false)
+
+Boss.Announcer.FastKillRecord.Enable = 1
+
+# Announce when a new record is set? (1: true | 0: false)
+
+Boss.Announcer.FastKillRecord.Announce = 1
+
+# Enable Boss Records Leaderboard NPC? (1: true | 0: false)
+
+Boss.Announcer.Leaderboard.Enable = 1
+
+###################################################################################################
+#	Guild Points System
+###################################################################################################
+
+# Enable guild points system? (1: true | 0: false)
+
+Boss.Announcer.GuildPoints.Enable = 1
+
+# Announce points in chat when awarded? (1: true | 0: false)
+
+Boss.Announcer.GuildPoints.Announce = 1
+
+# Points for first guild to kill a boss (default: 200)
+
+Boss.Announcer.GuildPoints.FirstKill = 200
+
+# Points for setting new fastest kill record (default: 100)
+
+Boss.Announcer.GuildPoints.NewRecord = 100
+
+# Points for killing bosses by difficulty
+# Normal 10-man (default: 10)
+
+Boss.Announcer.GuildPoints.Normal10 = 10
+
+# Normal 25-man (default: 20)
+
+Boss.Announcer.GuildPoints.Normal25 = 20
+
+# Heroic 10-man (default: 50)
+
+Boss.Announcer.GuildPoints.Heroic10 = 50
+
+# Heroic 25-man (default: 100)
+
+Boss.Announcer.GuildPoints.Heroic25 = 100
+
+# Check that all players are from same guild? (1: true | 0: false)
+
+Boss.Announcer.GuildPoints.RequireSameGuild = 1
+
+# Check that all players are online? (1: true | 0: false)
+
+Boss.Announcer.GuildPoints.RequireOnline = 1
+
+# Maximum distance from group leader for points (yards, default: 100)
+
+Boss.Announcer.GuildPoints.MaxDistance = 100
